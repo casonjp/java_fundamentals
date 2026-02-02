@@ -21,5 +21,25 @@ Fundamentals Exercise 1: CLI
 Example Output:
     1. cd ~/Documents/CodingNomads/
     2. mkdir Terminal_testing
-    3. //...
+    3. a. touch one.txt two.txt three.txt
+       b. pwd
+       c. ls
+          one.txt  three.txt  two.txt
+    5. mkdir test_folder
+    6. cp one.txt test_folder/
+    7. mv two.txt test_folder/
+    8. a. rm two.txt
+       b. rm -r test_folder/
+    9. a. vim one.txt
+       b. cat one.txt
+          Writing
+          some
+          text
+          in
+          this
+          file.
+          This is a CodingNomad challenge.
+       c. grep "text" one.txt
+          text
+
 
