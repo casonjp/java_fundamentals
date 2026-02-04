@@ -16,6 +16,27 @@ public class Exercise_04 {
         System.out.println("int i is: " + i);
 
         // write your code below
+        float myFloatNum = 3.14f;
+        System.out.println(myFloatNum);
+
+        char myLetter = 'A';
+        System.out.println(myLetter);
+
+        boolean myBool = true;
+        System.out.println(myBool);
+
+        double myDouble = 19.99d;
+        System.out.println(myDouble);
+
+        byte myByte = 10;
+        System.out.println(myByte);
+
+        short myShort = 10000;
+        System.out.println(myShort);
+
+        long myLong = 1245432443324333333L;
+        System.out.println(myLong);
+
 
     }
 
