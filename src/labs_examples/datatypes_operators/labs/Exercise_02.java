@@ -24,6 +24,21 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        int myInt;
+        myInt = 10;
+        double myDouble = myInt;
+
+        System.out.println("The result is: " + myDouble);
+
+        double newDouble;
+        int newInt;
+        newDouble = 10.5;
+        newInt = (int) newDouble;
+
+        System.out.println("The result with casting: " + newInt);
+
+
+
 
     }
 }

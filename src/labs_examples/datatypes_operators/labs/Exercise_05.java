@@ -18,6 +18,21 @@ class LogicalOperators {
         }
 
         // write your code below
+        if (a & b) {
+            System.out.println("AND");
+        }
+        if (a && b) {
+            System.out.println("short-circuit AND");
+        }
+        if (a || b) {
+            System.out.println("short-circuit OR");
+        }
+        if (a ^ b) {
+            System.out.println("XOR");
+        }
+        if (!b) {
+            System.out.println("NOT");
+        }
 
     }
 
