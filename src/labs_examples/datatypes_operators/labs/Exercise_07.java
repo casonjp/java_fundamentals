@@ -24,6 +24,13 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
+        int dts = days * 86400;
+
+        if (days >= 1 && days <= 1000000) {
+            System.out.println("The result is " + dts);
+        } else {
+            System.out.println("Keep it between 1 and 1,000,000!");
+        }
 
     }
 }
